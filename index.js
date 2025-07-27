@@ -51,7 +51,7 @@ app.get('/other', (req, res)=>{
 })
 
 app.get('/githubdata', (req, res)=>{
-    res.json("Haribol")
+    res.json(githubdata)
 })
 
 app.get('/haribol', (req, res)=>{
